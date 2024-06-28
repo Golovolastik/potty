@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       work
-        <button>Close</button>
+        <button onClick={onClose}>Close</button>
     </div>
   );
 }
