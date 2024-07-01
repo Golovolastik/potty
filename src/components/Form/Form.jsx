@@ -13,6 +13,10 @@ const Form = () => {
         })
     }, []);
 
+    useEffect(() => {
+        tg.MainButton.show()
+    }, []);
+
     const onChangeCountry = (e) => {
         setCountry(e.target.value)
     }
